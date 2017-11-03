@@ -39,7 +39,7 @@ training_data(test_indices, :) = [];
 training_truth_values(test_indices) = [];
 length_training_data_banknote = size(training_data, 1);
 
-% isolating columns 1 and 2 (features)
+% isolating columns 1 and 2 
 training_data_col_12 = horzcat(training_data(:, 1), training_data(:, 2));
 
 % Calculating K-Means 
